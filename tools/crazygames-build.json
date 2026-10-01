@@ -1,0 +1,10 @@
+{
+  "platform": "web-mobile",
+  "buildPath": "D:/cocos/lockmaster-global/build",
+  "outputName": "crazygames",
+  "debug": false,
+  "md5Cache": true,
+  "sourceMaps": false,
+  "showFPS": false,
+  "startScene": "1add660d-acef-4abc-8631-cadef288dc8e"
+}

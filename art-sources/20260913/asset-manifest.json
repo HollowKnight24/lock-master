@@ -1,0 +1,550 @@
+[
+  {
+    "path": "background/bg_cartoon_dungeon.png",
+    "width": 1080,
+    "height": 1920,
+    "source": "exec-bcc2c45f-96df-4590-8a47-c03b018a0e4d.png",
+    "crop": [
+      0,
+      0,
+      941,
+      1672
+    ],
+    "transparent": false,
+    "sha256": "A23F5333395E824F1057B05883689E2B802ABAED7B0CC795D03366E463909259"
+  },
+  {
+    "path": "characters/mascot_idle.png",
+    "width": 768,
+    "height": 832,
+    "source": "exec-1a983131-737f-49a6-8e4f-f85571e60635.png",
+    "crop": [
+      0,
+      0,
+      1216,
+      1293
+    ],
+    "transparent": true,
+    "sha256": "B3A98573F375B2B03D75918F031962FA872B67CBADA9AD447FBA092F61A7D891"
+  },
+  {
+    "path": "characters/mascot_win.png",
+    "width": 640,
+    "height": 640,
+    "source": "exec-b4f189f7-fb9b-4a77-a5d2-12afed72e0ba.png",
+    "crop": [
+      0,
+      0,
+      887,
+      887
+    ],
+    "transparent": true,
+    "sha256": "2D6E474AE6411C042BA80439D76D6E4ED9FDD6BF8D52A18D150B5EA649A578F4"
+  },
+  {
+    "path": "characters/mascot_lose.png",
+    "width": 640,
+    "height": 640,
+    "source": "exec-b4f189f7-fb9b-4a77-a5d2-12afed72e0ba.png",
+    "crop": [
+      887,
+      0,
+      887,
+      887
+    ],
+    "transparent": true,
+    "sha256": "AA894D36AD987C5CB538CFF4EA629BC371C37675BE7AC7C43ED78E7F8FF30343"
+  },
+  {
+    "path": "gameplay/lock_vertical.png",
+    "width": 640,
+    "height": 864,
+    "source": "exec-552f9c7f-e9f3-42cd-9ea0-234532123916.png",
+    "crop": [
+      0,
+      0,
+      627,
+      836
+    ],
+    "transparent": true,
+    "sha256": "F5642E50B2528B29965D2BE5997107C9C9ECCD7663C41F46ADA1BE698BC711C1"
+  },
+  {
+    "path": "gameplay/lock_half.png",
+    "width": 640,
+    "height": 864,
+    "source": "exec-552f9c7f-e9f3-42cd-9ea0-234532123916.png",
+    "crop": [
+      627,
+      0,
+      627,
+      836
+    ],
+    "transparent": true,
+    "sha256": "3D71C2CC2CD4DF3ACEF159609D51FA410C88BA627C5B31E23D78CDBBC59C78F3"
+  },
+  {
+    "path": "gameplay/lock_full.png",
+    "width": 640,
+    "height": 864,
+    "source": "exec-552f9c7f-e9f3-42cd-9ea0-234532123916.png",
+    "crop": [
+      1254,
+      0,
+      628,
+      836
+    ],
+    "transparent": true,
+    "sha256": "D859DDAA48F410CF30ED600411CF76D64A5DBB65439EC78CF7CBB894EFAE3DAD"
+  },
+  {
+    "path": "ui/panel_wood.png",
+    "width": 896,
+    "height": 1024,
+    "source": "exec-fea6ed20-a85d-42ef-8142-6a26c75bdc96.png",
+    "crop": [
+      0,
+      0,
+      1199,
+      1312
+    ],
+    "transparent": true,
+    "sha256": "C099600B65526A7C3E2DCDCA8602929781B4548316E0F504D48D529F967BD0FF"
+  },
+  {
+    "path": "gameplay/pointer_linear.png",
+    "width": 128,
+    "height": 448,
+    "source": "exec-8e9a74a9-5f4d-40e0-befc-eba3f9c79b76.png",
+    "crop": [
+      430,
+      55,
+      165,
+      1425
+    ],
+    "transparent": true,
+    "sha256": "684795034DC6120D04F263FF5C3987B2BD958656578DFF06774001FE1973F1D9"
+  },
+  {
+    "path": "gameplay/pointer_radial.png",
+    "width": 128,
+    "height": 448,
+    "source": "exec-8e9a74a9-5f4d-40e0-befc-eba3f9c79b76.png",
+    "crop": [
+      430,
+      55,
+      165,
+      1425
+    ],
+    "transparent": true,
+    "sha256": "684795034DC6120D04F263FF5C3987B2BD958656578DFF06774001FE1973F1D9"
+  },
+  {
+    "path": "gameplay/zone_yellow_linear.png",
+    "width": 384,
+    "height": 128,
+    "source": "exec-a2940996-195b-44b0-807d-1cb4b39e2981.png",
+    "crop": [
+      80,
+      170,
+      2012,
+      340
+    ],
+    "transparent": true,
+    "sha256": "24BA2262156526249754CC0172A1EB71D0E7CC6F5AC339EB647FE0F0CA4888CB"
+  },
+  {
+    "path": "gameplay/zone_blue_linear.png",
+    "width": 384,
+    "height": 128,
+    "source": "exec-876811b2-f74c-4315-aee3-2ad0a43cf8f2.png",
+    "crop": [
+      80,
+      170,
+      2012,
+      340
+    ],
+    "transparent": true,
+    "sha256": "8C785DAE2C7211B028C1B38B799566E78E19A2C2B94029001E714177DC3A822F"
+  },
+  {
+    "path": "gameplay/zone_yellow_ring.png",
+    "width": 512,
+    "height": 512,
+    "source": "exec-ec784159-a6cf-477a-910e-3ebdc549ff65.png",
+    "crop": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "transparent": true,
+    "sha256": "A8D49311C9B6988AF934CEF152ABEEF1CFA267798879B971847668B6E6BCE4BF"
+  },
+  {
+    "path": "gameplay/zone_blue_ring.png",
+    "width": 512,
+    "height": 512,
+    "source": "exec-c6807dc2-1f1a-45e4-890b-042a71756117.png",
+    "crop": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "transparent": true,
+    "sha256": "3E7364767812C87542DB6C468420E72EFFE743144070510A8604DF2BB3865A70"
+  },
+  {
+    "path": "branding/logo_lockmaster.png",
+    "width": 1024,
+    "height": 512,
+    "source": "exec-a8f7376b-7d46-4f8f-b7d1-8af6636fe086.png",
+    "crop": [
+      0,
+      0,
+      1774,
+      887
+    ],
+    "transparent": true,
+    "sha256": "21C27E19FDC2C22B4EDC12B731B270ECC47478E659276741530AFBE9359D635B"
+  },
+  {
+    "path": "sharing/share_cover.png",
+    "width": 1000,
+    "height": 800,
+    "source": "exec-fe976ca2-aea1-4e62-9676-fff0adc32d2d.png",
+    "crop": [
+      0,
+      0,
+      1402,
+      1122
+    ],
+    "transparent": false,
+    "sha256": "0AC71DC6C0561C060E8D1A96CE4B22E481C0A9D0F6054CEACD33B16143B3317B"
+  },
+  {
+    "path": "ui/icon_play.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      30,
+      35,
+      280,
+      300
+    ],
+    "transparent": true,
+    "sha256": "B7EFBF33195CA068090BDB4C9A96516B8040B866CBF39B08F75D26CEC2180B7E"
+  },
+  {
+    "path": "ui/icon_rank.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      330,
+      35,
+      300,
+      300
+    ],
+    "transparent": true,
+    "sha256": "008C14174EFEE9039C96DC754D631CD8FC1D0C132C93E35E5EA0141EB8A4CEB5"
+  },
+  {
+    "path": "ui/icon_share.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      650,
+      30,
+      290,
+      310
+    ],
+    "transparent": true,
+    "sha256": "6D6A07373A0409060A6426C8AEF8E718BE3C87F5A0E9FC77C682FB074F57D8B2"
+  },
+  {
+    "path": "ui/icon_normal.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      962,
+      35,
+      318,
+      300
+    ],
+    "transparent": true,
+    "sha256": "6DB6B3B4EC02DE3101F9CFA048099A05BF05A9E74E058365E7699CC6CE3A2E95"
+  },
+  {
+    "path": "ui/icon_challenge.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      1285,
+      35,
+      334,
+      300
+    ],
+    "transparent": true,
+    "sha256": "60D51281755A0D934FE37C195BAAB5EF417A412A6E282ABF23B23B80CFB9BE68"
+  },
+  {
+    "path": "ui/icon_close.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      25,
+      350,
+      282,
+      272
+    ],
+    "transparent": true,
+    "sha256": "C91A8C95DEB3229D39F26BF17600BCC715BDDCBBB096727580FB315F372D044B"
+  },
+  {
+    "path": "ui/icon_home.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      323,
+      345,
+      309,
+      280
+    ],
+    "transparent": true,
+    "sha256": "7CC4F1CD19756FE5CB017CE82E4FC712835ACB6F3C111CBEFDB597665CE66454"
+  },
+  {
+    "path": "ui/icon_restart.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      650,
+      345,
+      292,
+      285
+    ],
+    "transparent": true,
+    "sha256": "6DBF6D9A0B71A6F966F696837C1881FDB1D6ADDE2E2C365F8E514D44606DECCB"
+  },
+  {
+    "path": "ui/icon_next.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      985,
+      370,
+      278,
+      245
+    ],
+    "transparent": true,
+    "sha256": "8AC4F5E447F7A1626E4569AFC5B64AB0DE4793295204CFEA761B10C7ABD8E76A"
+  },
+  {
+    "path": "ui/icon_revive.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      1275,
+      332,
+      344,
+      302
+    ],
+    "transparent": true,
+    "sha256": "604CFB00B18FD622BFA2E19B9EAF2973FCB9E3F434567C250E6569214D2F41A6"
+  },
+  {
+    "path": "ui/icon_unlock.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      30,
+      630,
+      285,
+      310
+    ],
+    "transparent": true,
+    "sha256": "D6E769E92DFAAFED740B061B34E6EF1081B805AD22DE127C1F20954516522A56"
+  },
+  {
+    "path": "ui/icon_speed.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      333,
+      660,
+      299,
+      264
+    ],
+    "transparent": true,
+    "sha256": "1DC6EC1A9D64447F41F8145E0D7F2F93D09B25E572BC088BB5CA9AE134867140"
+  },
+  {
+    "path": "ui/icon_time.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      654,
+      632,
+      284,
+      300
+    ],
+    "transparent": true,
+    "sha256": "BE57C24BD29C128AE0FDC2BC4DDA642121F91BC410F93F12D871CDE299757F87"
+  },
+  {
+    "path": "ui/icon_score.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      945,
+      635,
+      352,
+      305
+    ],
+    "transparent": true,
+    "sha256": "CF84B371D633BD2826D3ED870B63AA3A7FA116491817DC56A49B1C113DAEAC36"
+  },
+  {
+    "path": "ui/icon_locked.png",
+    "width": 192,
+    "height": 192,
+    "source": "exec-64174a9d-d1e3-48ea-b1d5-c10af4d36d4e.png",
+    "crop": [
+      1315,
+      635,
+      280,
+      305
+    ],
+    "transparent": true,
+    "sha256": "C366F86729E549CC6143CC11D371F0A833F4EDC16C1FCBD3494507DC0C4787EB"
+  },
+  {
+    "path": "ui/button_gold.png",
+    "width": 640,
+    "height": 144,
+    "source": "exec-aa214f05-2fd1-4bf2-9a48-edf219b9ac02.png",
+    "crop": [
+      500,
+      0,
+      950,
+      202
+    ],
+    "transparent": true,
+    "sha256": "350434ECA279F85D40831A169AFF0FBD1D2E3BF84EC5CC2731A1E0ED5ED1E019"
+  },
+  {
+    "path": "ui/button_cyan.png",
+    "width": 640,
+    "height": 144,
+    "source": "exec-aa214f05-2fd1-4bf2-9a48-edf219b9ac02.png",
+    "crop": [
+      500,
+      202,
+      950,
+      202
+    ],
+    "transparent": true,
+    "sha256": "28DB2B3F673D088986993A67BB56FA79E60517FAB49571AFDE540804D69B51A2"
+  },
+  {
+    "path": "ui/button_disabled.png",
+    "width": 640,
+    "height": 144,
+    "source": "exec-aa214f05-2fd1-4bf2-9a48-edf219b9ac02.png",
+    "crop": [
+      500,
+      404,
+      950,
+      202
+    ],
+    "transparent": true,
+    "sha256": "A602B1B23E64F116D7B040A58BC7D6F1BA195CB5C23160CE2FF76B20BBD44D72"
+  },
+  {
+    "path": "ui/button_red.png",
+    "width": 640,
+    "height": 144,
+    "source": "exec-aa214f05-2fd1-4bf2-9a48-edf219b9ac02.png",
+    "crop": [
+      500,
+      606,
+      950,
+      202
+    ],
+    "transparent": true,
+    "sha256": "C1EE6483A357471E5FBE268A4A9B66C9A07F39517810E1EDDF76376EBADCD684"
+  },
+  {
+    "path": "ui/panel_rank.png",
+    "width": 1024,
+    "height": 1088,
+    "source": "exec-31802c73-07c8-46f3-8065-6b4ebc0b5f3f.png",
+    "crop": [
+      0,
+      0,
+      1230,
+      1278
+    ],
+    "transparent": true,
+    "sha256": "C3F8C091A430BAFA06F7081E459027F7633B5F44030DBAE55129288CF3AF2C4D"
+  },
+  {
+    "path": "effects/fx_success.png",
+    "width": 320,
+    "height": 320,
+    "source": "exec-99a3d594-44dd-4208-b0a4-7c874ff9f1db.png",
+    "crop": [
+      100,
+      70,
+      670,
+      720
+    ],
+    "transparent": true,
+    "sha256": "3B205A6B8D4F51363D0A929562E66BC11C597477F76332BF6CCB9FD7349FE604"
+  },
+  {
+    "path": "effects/fx_miss.png",
+    "width": 320,
+    "height": 320,
+    "source": "exec-99a3d594-44dd-4208-b0a4-7c874ff9f1db.png",
+    "crop": [
+      980,
+      70,
+      740,
+      720
+    ],
+    "transparent": true,
+    "sha256": "A10AC4363FA99AE76CE848609A6FA5DC38DA7DFC76C9CEB573151222C8343565"
+  },
+  {
+    "path": "gameplay/lock_s.png",
+    "width": 1079,
+    "height": 1457,
+    "source": "lock_s-geometric-source.png",
+    "transparent": true,
+    "sha256": "21DC242F8F7AA4AF74EC9CFB027078014B95C6FC3F59E562F3D5C6F8989445FA"
+  },
+  {
+    "path": "gameplay/lock_diamond.png",
+    "width": 1079,
+    "height": 1457,
+    "source": "exec-90f80e57-f856-4212-8da1-33fd78681f5f.png",
+    "transparent": true,
+    "sha256": "917A57D04982694B3A13AA16B13C81BFB11167AD6C4E9180F57E389F7047AC7B"
+  }
+]

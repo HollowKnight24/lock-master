@@ -1,0 +1,16 @@
+{
+  "platform": "wechatgame",
+  "buildPath": "D:/cocos/lockmaster-global/build",
+  "outputName": "wechatgame-trial",
+  "debug": true,
+  "md5Cache": false,
+  "showFPS": false,
+  "startScene": "1add660d-acef-4abc-8631-cadef288dc8e",
+  "packages": {
+    "wechatgame": {
+      "orientation": "portrait",
+      "separateEngine": true,
+      "highPerformanceMode": false
+    }
+  }
+}

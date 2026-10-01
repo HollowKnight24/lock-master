@@ -1,0 +1,32 @@
+{
+  "name": "LockMasterGlobal",
+  "uuid": "66cca895-bcfd-4eaa-a36d-fcb3148b05e6",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "art:generate": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/export-formal-art.ps1",
+    "art:meta": "node tools/configure-formal-art-meta.mjs",
+    "art:check": "node tools/verify-formal-art.mjs",
+    "art:check:cocos": "node tools/verify-formal-art.mjs --cocos",
+    "preview": "node tools/serve-web-preview.mjs",
+    "preview:build": "tools\\build-web-preview.cmd",
+    "web:trial:build": "tools\\build-web-preview.cmd",
+    "web:trial:verify": "node tools/verify-web-trial-build.mjs",
+    "web:trial:deploy": "tools\\deploy-cloudflare-pages.cmd",
+    "crazygames:build": "tools\\build-crazygames.cmd",
+    "crazygames:verify": "node tools/verify-crazygames-build.mjs",
+    "crazygames:package": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/package-crazygames.ps1",
+    "crazygames:release": "tools\\release-crazygames.cmd",
+    "crazygames:preview": "node tools/serve-web-preview.mjs build/crazygames 7457",
+    "wechat:trial:build": "tools\\build-wechat-trial.cmd",
+    "wechat:trial:verify": "node tools/verify-wechat-trial-build.mjs",
+    "qa": "node tools/run-release-validation.mjs"
+  },
+  "engines": {
+    "node": "24.15.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.3"
+  }
+}

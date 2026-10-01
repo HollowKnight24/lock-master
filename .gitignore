@@ -1,0 +1,37 @@
+
+#///////////////////////////
+# Cocos Creator 3D Project
+#///////////////////////////
+library/
+temp/
+local/
+build/
+build-*/
+release/
+deprecated-art-*/
+deprecated-audio-*/
+scene-backups/
+semantic-review/
+.firecrawl/
+*.log
+profiles/
+native
+#//////////////////////////
+# NPM
+#//////////////////////////
+node_modules/
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+
+#//////////////////////////
+# VSCode
+#//////////////////////////
+.vscode/
+
+#//////////////////////////
+# WebStorm
+#//////////////////////////
+.idea/
