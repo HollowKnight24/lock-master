@@ -25,6 +25,7 @@ Local SDK preview: run `npm run crazygames:preview`, then open `http://127.0.0.1
 - Rewarded ads power retry and one-run Challenge access.
 - Midgame ads use the existing global frequency cap at natural result breaks.
 - Audio and simulation pause during ads; `game.settings.muteAudio` overrides the in-game sound switch.
+- Challenge unlock, trial credit, best score and audio preference use the CrazyGames Data module in the CrazyGames build; guests are saved locally by that module, and signed-in progress syncs across devices.
 - No third-party ad SDK, external login, or mock ads ship in this build.
 
 ## Submission notes

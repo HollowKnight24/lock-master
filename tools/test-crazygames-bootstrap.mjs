@@ -17,6 +17,9 @@ try {
 
     const html = readFileSync(join(temporary, 'index.html'), 'utf8');
     assert.match(html, /<title>Lock Master<\/title>/);
+    assert.match(html, /__LOCK_MASTER_CRAZYGAMES_READY__\.then\(function \(ready\)/,
+        'Cocos startup must wait for the Data module to initialize');
+    assert.match(html, /__LOCK_MASTER_CRAZYGAMES_READY_RESULT__ = ready/);
     const script = html.match(/\/\* LOCK_MASTER_CRAZYGAMES_V3 \*\/([\s\S]*?)<\/script>/)?.[1];
     assert.ok(script, 'CrazyGames bootstrap was not injected');
 

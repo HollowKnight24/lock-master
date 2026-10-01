@@ -23,5 +23,10 @@ if (!source.includes(marker)) {
 }
 
 source = source.replace(/<title>.*?<\/title>/, '<title>Lock Master</title>');
+// The Data module is populated during SDK init. Start Cocos only after that resolves.
+source = source.replace(
+  /System\.import\(([^)]+)\)/,
+  'globalThis.__LOCK_MASTER_CRAZYGAMES_READY__.then(function (ready) { globalThis.__LOCK_MASTER_CRAZYGAMES_READY_RESULT__ = ready; return System.import($1); })',
+);
 writeFileSync(indexPath, source, 'utf8');
 console.log('[crazygames] SDK v3 bootstrap and English title injected');

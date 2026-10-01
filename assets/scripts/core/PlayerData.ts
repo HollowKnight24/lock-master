@@ -20,6 +20,15 @@ const DEFAULT_DATA: PlayerSaveData = {
     audioEnabled: true,
 };
 
+/** CrazyGames Data mirrors localStorage for guests and syncs signed-in players across devices. */
+function playerStorage(): Pick<Storage, 'getItem' | 'setItem' | 'removeItem'> {
+    const runtime = globalThis as any;
+    if (runtime.__LOCK_MASTER_CRAZYGAMES_READY_RESULT__ === true && runtime.CrazyGames?.SDK?.data) {
+        return runtime.CrazyGames.SDK.data;
+    }
+    return sys.localStorage;
+}
+
 /** 统一管理本地玩家数据，并兼容早期单独保存的挑战解锁标记。 */
 export class PlayerData {
     private static _cache: PlayerSaveData | null = null;
@@ -95,7 +104,7 @@ export class PlayerData {
     private static load(): PlayerSaveData {
         let parsed: Partial<PlayerSaveData> = {};
         try {
-            const raw = sys.localStorage.getItem(STORAGE_KEY);
+            const raw = playerStorage().getItem(STORAGE_KEY);
             if (raw) {
                 const candidate = JSON.parse(raw);
                 if (candidate && typeof candidate === 'object' && !Array.isArray(candidate)) {
@@ -110,7 +119,7 @@ export class PlayerData {
 
         let legacyUnlocked = false;
         try {
-            legacyUnlocked = sys.localStorage.getItem(LEGACY_UNLOCK_KEY) === 'true';
+            legacyUnlocked = playerStorage().getItem(LEGACY_UNLOCK_KEY) === 'true';
         } catch (error) {
             console.warn('[PlayerData] 旧版解锁数据读取失败，已忽略', error);
         }
@@ -129,7 +138,7 @@ export class PlayerData {
             const persisted = this.persist(data);
             if (persisted && legacyUnlocked) {
                 try {
-                    sys.localStorage.removeItem(LEGACY_UNLOCK_KEY);
+                    playerStorage().removeItem(LEGACY_UNLOCK_KEY);
                 } catch (error) {
                     console.warn('[PlayerData] 旧版解锁数据清理失败', error);
                 }
@@ -142,7 +151,7 @@ export class PlayerData {
         data.version = CURRENT_VERSION;
         this._cache = data;
         try {
-            sys.localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+            playerStorage().setItem(STORAGE_KEY, JSON.stringify(data));
             return true;
         } catch (error) {
             console.error('[PlayerData] 存档写入失败', error);
